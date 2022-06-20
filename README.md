@@ -8,7 +8,7 @@ Dates : 20 au 24 juin 2022
 
 ## Contenu
 
-- [ ] HTML/CSS : Rappels (slides 3 à 29)
+- [x] HTML/CSS : Rappels (slides 3 à 29)
 - [ ] HTML5/CSS3 : La révolution du web (slides 138 à 142)
 - [ ] HTML5/CSS3 : Le balisage (slides 143 à 149)
 - [ ] HTML5/CSS3 : CSS3 (slides 233 à 260)

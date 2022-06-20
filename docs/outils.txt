@@ -1,1 +1,4 @@
 https://www.uwamp.com/fr/
+https://code.visualstudio.com/
+https://git-scm.com/
+https://developer.mozilla.org/fr/
