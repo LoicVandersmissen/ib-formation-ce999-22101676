@@ -50,3 +50,45 @@ body {
     /* margin: 1rem;  */
     margin: 0 1rem 0 0;
 }
+
+/* INDEX - NAVBAR */
+#menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#menu a {
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: .7rem;
+    border-radius: .7rem;
+    display: block;
+    color: #000;
+    border: #000 solid .5rem;
+    background: #ffa500;
+    transition: all 1s;
+}
+
+#menu a:hover {
+    color: #ffa500;
+    border: #ffa500 solid .5rem;
+    background: #000;
+}
+
+/* INDEX - CAROUSEL */
+#carousel {
+    height: 25rem;
+    width: 80vw;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+#carousel img {
+    height: 100%;
+    /* width: 100%; */
+    /* filter: sepia(100%); */
+}
