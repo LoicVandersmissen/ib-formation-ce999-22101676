@@ -1,0 +1,52 @@
+/* Police en-ligne : doit être situé tout en haut du CSS */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/* Police importée */
+@font-face {
+    font-family: 'Ma police';
+    src: url('../fonts/Harland\ Roselyn.ttf');
+}
+
+/* RAZ */
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bg-agency {
+    background: url('../img/background.jpg') fixed;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+#container {
+    background-color: #ffffff88;
+    min-height: 100vh;
+}
+
+/* INDEX - EN-TETE */
+#en-tete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 7rem;
+    margin: 1rem;
+    transform: rotate(-15deg);
+}
+
+#title {
+    font-family: 'Permanent Marker';
+    font-size: 5rem;
+    /* 4 valeurs : top / right / bottom / left */
+    /* margin: 1rem 2rem 3rem 4rem;  */
+    /* 3 valeurs : top bottom / right left */
+    /* margin: 1rem 2rem 3rem;  */
+    /* 2 valeurs : top bottom / right left */
+    /* margin: 1rem 2rem;  */
+    /* 1 valeur : top right bottom left */
+    /* margin: 1rem;  */
+    margin: 0 1rem 0 0;
+}
