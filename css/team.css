@@ -1,11 +1,118 @@
+/* Police en-ligne : doit être situé tout en haut du CSS */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/* Police importée */
+@font-face {
+    font-family: 'Ma police';
+    src: url('../fonts/Harland\ Roselyn.ttf');
+}
+
+/* Sélecteurs de base : balise */
 body {
     background-color: darkseagreen;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
-    /* A détailler mardi 21 juin */
     height: 15rem;
     margin: 1rem;
     border: black solid 1px
+}
+
+h1 {
+    font-family: 'Permanent Marker';
+    /* text-shadow: 2px 2px 0 yellow, -2px -2px 3px red; */
+    text-shadow: 0 0 3px yellow;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Ma police', cursive;
+}
+
+/* Sélecteurs de base : class */
+.red-text {
+    color: crimson;
+}
+
+/* Sélecteurs de base : id */
+#top2 {
+    letter-spacing: 2px;
+    color: crimson;
+}
+
+.title {
+    color: maroon !important;
+}
+
+h1 {
+    color: lime;
+}
+
+/* Sélecteurs hiérarchiques : parent > enfant */
+dl>dt {
+    font-weight: bold;
+}
+
+/* Sélecteurs hiérarchiques : ascendant descendant */
+ol li {
+    font-weight: bold;
+}
+
+/* Sélecteurs hiérarchiques : frère + soeur */
+h3+p {
+    font-style: italic;
+}
+
+/* Pseudo-classes : originales pour a */
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: crimson
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/* Pseudo-classes */
+ol>li:first-of-type {
+    color: crimson;
+}
+
+/* Pseudo-élément */
+p::first-letter {
+    font-family: 'Permanent Marker';
+    font-size: 2rem;
+}
+
+/* Unités relatives */
+table {
+    /* width: 50%; */
+    width: 50vw;
+}
+
+table,
+th,
+td {
+    border: black solid .1em;
+}
+
+thead,
+tfoot {
+    background-color: #7907f8;
+    background-color: rgb(121, 7, 248);
+    background-color: hsl(25, 100%, 50%);
+    background-color: green;
+    /* Avec transparence */
+    background-color: #7907f866;
+    background-color: rgba(255, 255, 0, .8);
+    background-color: hsla(125, 100%, 50%, .5);
 }
