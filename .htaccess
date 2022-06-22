@@ -1,0 +1,6 @@
+# Désactivation de l'exploration des dossiers
+Options All -Indexes
+
+# Gestion des erreurs HTTP : 403 et 404
+ErrorDocument 403 /my-project/errors/403.html
+ErrorDocument 404 /my-project/errors/404.html
