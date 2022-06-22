@@ -82,8 +82,8 @@ body {
 /* INDEX - CAROUSEL */
 #carousel {
     height: 25rem;
-    width: 80vw;
-    margin: 1rem auto;
+    /* width: 80vw;
+    margin: 1rem auto; */
     text-align: center;
 }
 
@@ -91,4 +91,15 @@ body {
     height: 100%;
     /* width: 100%; */
     /* filter: sepia(100%); */
+}
+
+/* INDEX - MULTIMEDIA */
+#multimedia,
+#carousel {
+    width: 80vw;
+    margin: 1rem auto;
+}
+
+#multimedia video {
+    width: 100%;    
 }
