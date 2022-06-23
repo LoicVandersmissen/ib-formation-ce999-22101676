@@ -210,6 +210,8 @@ let contacts = [
     'Margaux',
     'Timothy',
     'Yasser',
+    'Ahmed',
+    'Dorian',
     'Lesly'
 ];
 

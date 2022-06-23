@@ -94,6 +94,12 @@ body {
 }
 
 /* INDEX - TEAM */
+#team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .member {
     width: 20rem;
     border-radius: 1rem;
