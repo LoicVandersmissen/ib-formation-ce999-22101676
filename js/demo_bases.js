@@ -160,5 +160,83 @@ if (part < 4) {
 
 // switch
 // conversion du if en switch
+part = 5
+switch (part) {
+    case 1:
+    case 2:
+    case 3:
+        console.info('Il reste encore beaucoup de places.');
+        break;
+    case 4:
+    case 5:
+    case 6:
+        console.info('Il reste encore quelques places.');
+        break;
+    case 7:
+    case 8:
+    case 9:
+        console.info('Il ne reste plus beaucoup de places.');
+        break;
+    default:
+        console.warn('Attention le nb de participants est dépassé.');
+}
+// version optimisée
+part = 8;
+switch (true) {
+    case (part > 0 && part < 4):
+        console.info('Il reste encore beaucoup de places.');
+        break;
+    case (part > 3 && part < 7):
+        console.info('Il reste encore quelques places.');
+        break;
+    case (part > 6 && part < 10):
+        console.info('Il ne reste plus beaucoup de places.');
+        break;
+    default:
+        console.warn('Attention le nb de participants est dépassé.');
+}
 
+/**
+ * Structures itératives (boucles)
+ */
 
+let contacts = [
+    'Thomas',
+    'Rudy',
+    'Hélène',
+    'Josias',
+    'Yves',
+    'Loïc',
+    'Margaux',
+    'Timothy',
+    'Yasser',
+    'Lesly'
+];
+
+// while
+console.log('WHILE');
+let cpt = 0;
+while (cpt < contacts.length) {
+    console.log(contacts[cpt]);
+    cpt++; // co = co + 1
+}
+
+// do...while
+console.log('DO...WHILE');
+cpt = 0;
+do {
+    console.log(contacts[cpt]);
+    cpt++; // co = co + 1
+} while (cpt < contacts.length)
+
+// for
+console.log('FOR');
+for (let count = 0; count < contacts.length; count++) {
+    console.log(contacts[count]);
+}
+// console.log(count);
+
+console.log('FOR à l\'envers');
+for (let count = contacts.length - 1; count > -1; count--) {
+    console.log(contacts[count]);
+}

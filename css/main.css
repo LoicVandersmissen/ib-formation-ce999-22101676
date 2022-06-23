@@ -93,6 +93,30 @@ body {
     /* filter: sepia(100%); */
 }
 
+/* INDEX - TEAM */
+.member {
+    width: 20rem;
+    border-radius: 1rem;
+}
+
+.member img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.member div {
+    padding: 1rem;
+    text-align: center;
+}
+
+.boy {
+    background-color: #ff69b4;
+}
+
+.girl {
+    background-color: #6495ed;
+}
+
 /* INDEX - MULTIMEDIA */
 #multimedia,
 #carousel {
