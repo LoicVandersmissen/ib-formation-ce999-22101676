@@ -103,11 +103,14 @@ body {
 .member {
     width: 20rem;
     border-radius: 1rem;
+    margin: 1rem 0;
+    border: solid #000 .25rem;
+    box-shadow: 0 0 1rem #555;
 }
 
 .member img {
     width: 100%;
-    border-radius: 1rem 1rem 0 0;
+    border-radius: .75rem .75rem 0 0;
 }
 
 .member div {

@@ -16,6 +16,16 @@ function sayHello(fname, lang = 'FR') {
     }
 }
 
+let sayHelloAgain = function (fname, lang = 'FR') {
+    if (lang === 'FR') {
+        alert('Salut ' + fname);
+    } else if (lang === 'ES') {
+        alert('Hola ' + fname);
+    } else {
+        alert('Hi ' + fname);
+    }
+};
+
 /**
  * Fonction qui renvoie un prix TTC à partir du HT et du taux
  * @param {float} ht prix HT (doit être positif)

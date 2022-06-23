@@ -26,6 +26,16 @@ function getMembers() {
         h2 = document.createElement('h2');
         h2.textContent = contacts[i];
         div.appendChild(h2);
+        // Crée la balise P
+        p = document.createElement('p');
+        p.textContent = 'Compétences de : ' + contacts[i];
+        div.appendChild(p)
+        // Crée la balise A
+        a = document.createElement('a');
+        a.setAttribute('href', 'https://www.google.fr/search?q=' + contacts[i]);
+        a.setAttribute('target', '_blank');
+        a.textContent = 'En savoir plus sur ' + contacts[i];
+        div.appendChild(a);
     }
 }
 
