@@ -17,7 +17,7 @@ Dates : 20 au 24 juin 2022
 - [x] JavaScript : Rappels (slides 30 à 34)
 - [x] JavaScript : Premières applications (slides 35 à 40)
 - [x] JavaScript : Le langage (slides 41 à 55)
-- [x] JavaScript : Le modèle objet JS (slides 56 à 64)
+- [ ] JavaScript : Le modèle objet JS (slides 56 à 64)
 - [ ] JavaScript : Les événements (slides 65 à 69)
 - [x] JavaScript : Document Object Model (slides 70 à 94)
 - [ ] JavaScript : Gestion des formulaires (slides 95 à 104)
