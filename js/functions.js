@@ -47,3 +47,19 @@ function ttc(ht, taux = .2) {
         return ht * (1 + taux);
     }
 }
+
+/**
+ * Fonction qui renvoie la différence en années entre deux dates données
+ * @param {string|number} date1 première date
+ * @param {string|number} date2 deuxième date
+ * @return {number} âge en années
+ */
+
+function age(date1, date2 = new Date()) {
+    let d1 = new Date(date1), d2 = new Date(date2);
+    if (isNaN(d1) || isNaN(d2)) {
+        throw "L'une des deux dates n'est pas correcte.";
+    } else {
+        return Math.floor(Math.abs((d1 - d2) / 1000 / 60 / 60 / 24 / 365.25));
+    }
+}

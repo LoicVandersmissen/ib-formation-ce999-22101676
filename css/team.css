@@ -116,3 +116,22 @@ tfoot {
     background-color: rgba(255, 255, 0, .8);
     background-color: hsla(125, 100%, 50%, .5);
 }
+
+tbody tr td:last-of-type {
+    text-align: center;
+}
+
+/* 2n ou even */
+tbody tr:nth-of-type(2n) {
+    background-color: #ffebcd;
+}
+
+/* 2n+1 ou odd */
+tbody tr:nth-of-type(2n+1) {
+    background-color: #7fffd4;
+}
+
+tbody tr:hover {
+    background-color: #daafde;
+    cursor: pointer;
+}
