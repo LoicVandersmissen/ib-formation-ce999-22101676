@@ -73,9 +73,9 @@ function getUsers() {
         div.appendChild(p)
         // Crée la balise A
         a = document.createElement('a');
-        a.setAttribute('href', 'https://www.google.fr/search?q=' + users[i].firstName);
+        a.setAttribute('href', 'http://maps.google.com/maps?q=loc:' + users[i].address.coordinates.lat + '+' + users[i].address.coordinates.lng);
         a.setAttribute('target', '_blank');
-        a.textContent = 'En savoir plus sur ' + users[i].firstName;
+        a.textContent = 'Localiser ' + users[i].firstName;
         div.appendChild(a);
     }
 }

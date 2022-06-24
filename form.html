@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de candidature</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <h1>Formulaire de candidature</h1>
+
+    <form action="form_send.php" method="post">
+
+        <fieldset>
+            <legend>Idendité</legend>
+
+            <div>
+                <label for="fname">Prénom</label>
+                <input type="text" name="fname" id="fname" placeholder="Prénom uniquement">
+                <!-- Ajouter pattern Regexp -->
+            </div>
+
+            <div>
+                <label for="dob">Date de naissance</label>
+                <input type="date" name="dob" id="dob">
+                <span id="age">.</span>
+                <!-- Calculer âge -->
+            </div>
+
+            <fieldset>
+                <legend>Sexe</legend>
+                <input type="radio" name="sex" id="sex_f" value="F">
+                <label for="sex_f">Féminin</label>
+                <input type="radio" name="sex" id="sex_m" value="M">
+                <label for="sex_m">Masculin</label>
+                <input type="radio" name="sex" id="sex_n" value="N">
+                <label for="sex_n">Neutre</label>
+            </fieldset>
+
+            <div>
+                <label for="mail">Courriel</label>
+                <input type="email" name="mail" id="mail">
+            </div>
+
+            <div>
+                <label for="country">Pays</label>
+                <select name="country" id="country">
+                    <option value="FR">France</option>
+                    <option value="DE">Allemagne</option>
+                    <option value="MG">Madagascar</option>
+                    <!-- Remplir liste avec AJAX -->
+                </select>
+            </div>
+
+            <div>
+                <label for="zip">CP</label>
+                <input type="text" name="zip" id="zip">
+            </div>
+
+            <div>
+                <label for="city">Ville</label>
+                <input type="text" name="city" id="city">
+                <!-- Remplir avec AJAX -->
+            </div>
+
+        </fieldset>
+
+        <nav>
+            <input type="submit">
+            <input type="reset">
+            <input type="button" value="Stockage local" id="save">
+        </nav>
+    </form>
+</body>
+
+</html>

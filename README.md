@@ -13,7 +13,7 @@ Dates : 20 au 24 juin 2022
 - [x] HTML5/CSS3 : Le balisage (slides 143 à 149)
 - [x] HTML5/CSS3 : CSS3 (slides 233 à 260)
 - [x] HTML5/CSS3 : Vidéo et Audio (slides 161 à 167)
-- [ ] HTML5/CSS3 : Les formulaires (slides 150 à 160)
+- [x] HTML5/CSS3 : Les formulaires (slides 150 à 160)
 - [x] JavaScript : Rappels (slides 30 à 34)
 - [x] JavaScript : Premières applications (slides 35 à 40)
 - [x] JavaScript : Le langage (slides 41 à 55)
