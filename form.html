@@ -10,9 +10,15 @@
 </head>
 
 <body>
-    <h1>Formulaire de candidature</h1>
+    <h1>Formulaire de candidature ☕</h1>
+    <p>A remplir avant cet &eacute;t&eacute; - Copyright &copy; Codix</p>
 
-    <form action="form_send.php" method="post">
+    <nav id="darkmode">
+        <button id="dark">Sombre &#127765;</button>
+        <button id="light">Clair &#127774;</button>
+    </nav>
+
+    <form id="register" action="form_send.php" method="post">
 
         <fieldset>
             <legend>Idendité</legend>
@@ -87,6 +93,16 @@
                 <input type="checkbox" id="checkAll">
                 <label for="checkAll">Tous/Aucun</label>
             </fieldset>
+
+            <div>
+                <label for="col">Couleur favorite</label>
+                <input type="color" name="col" id="col">
+            </div>
+
+            <div>
+                <label for="remark">Remarques</label>
+                <textarea name="remark" id="remark" cols="30" rows="10"></textarea>
+            </div>
 
         </fieldset>
 

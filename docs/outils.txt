@@ -8,3 +8,4 @@ https://fonts.google.com/
 https://validator.w3.org/
 https://jsonvisio.com/editor
 https://dummyjson.com/
+https://www.utf8icons.com/

@@ -15,7 +15,46 @@ document.querySelector('#dob').addEventListener(
 
 document.querySelector('#salary').addEventListener(
     'mousemove',
-    function(){
-        document.querySelector('#salaryVal').textContent=this.value + ' EUR bruts mensuels'
+    function () {
+        document.querySelector('#salaryVal').textContent = this.value + ' EUR bruts mensuels'
     }
 );
+
+/**
+ * Gestion du dark mode
+ */
+
+document.querySelector('#dark').addEventListener(
+    'click',
+    function () {
+        document.body.className = 'dark';
+    }
+);
+
+document.querySelector('#light').addEventListener(
+    'click',
+    function () {
+        document.body.className = 'light';
+    }
+);
+
+/**
+ * Gestion du click/change sur la case à cocher
+ */
+
+document.querySelector('#checkAll').addEventListener(
+    'click',
+    function () {
+
+    }
+);
+
+
+
+
+
+
+
+
+
+

@@ -94,7 +94,7 @@ body {
 }
 
 /* INDEX - TEAM */
-#team{
+#team {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -134,5 +134,42 @@ body {
 }
 
 #multimedia video {
-    width: 100%;    
+    width: 100%;
+}
+
+/* FORM */
+
+#register,
+#darkmode {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+#darkmode {
+    text-align: center;
+}
+
+#register div * {
+    display: block;
+    margin: .5rem 0;
+}
+
+#register div input,
+#register div select,
+#register div textarea {
+    width: 100%;
+    border-radius: .25rem;
+    box-shadow: 0 0 .25rem #555;
+}
+
+.dark {
+    background-color: #555;
+    color: #eee;
+    transition: all 1s;
+}
+
+.light {
+    background-color: #eee;
+    color: #555;
+    transition: all 1s;
 }
